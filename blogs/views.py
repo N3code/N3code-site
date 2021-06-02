@@ -1,10 +1,11 @@
 from django.shortcuts import render, redirect
 from .models import Blogs, Comment
 from .forms import AddComment
+from django.contrib import messages
 # Create your views here.
 def blogsPage(request):
 	"""function to render the blogs page"""
-	
+
 	#variable to collect all blog queries
 	blogs = Blogs.objects.all()
 
