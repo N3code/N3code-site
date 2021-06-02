@@ -30,6 +30,7 @@
 
 .body{
 	font-family: 'Cabin', sans-serif;
+	background-image: url(daniil-images/background1.svg);
 }
 
 .intro-styling{
@@ -74,7 +75,7 @@
 
 .we-are{
 	margin-top:25px; 
-	background-color:#7DCFB6;
+	background-image: url(daniil-images/background2.svg);
 	height:650px;
 	width:auto;
 }
