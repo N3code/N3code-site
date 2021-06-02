@@ -38,7 +38,7 @@ cd env
 For Linux devices simply write:
 
 ```bash
-cd env source ./Scripts/activate
+cd env 
 ```
 
 And activate it:
