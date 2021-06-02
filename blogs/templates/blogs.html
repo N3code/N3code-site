@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for blog in blogs %}
+<div class="jumbotron blog" style="background-color:#F79256 ">
+	  <h2 class="lead">{{blog.pub_date}}</h2>
+	  <h1 class="display-4">{{blog.title}}</h1>
+	  <p class="lead">{{blog.author}}</p>
+	  <hr class="my-4">
+	  <p>{{blog.text}}</p>
+	  <hr class="my-4">
+	  <h2>Comments:</h2>
+	  {% for comment in blog.comments.all %}
+	  <br>
+	  <h3 class="lead">{{comment.name}}</h3>
+	  <p class="lead">{{comment.comment}}</p>
+	  {% endfor %}
+	  <p class="lead">
+	    <a class="btn btn-primary btn-lg" href="{% url 'addComment' %}" role="button">Leave a comment</a>
+	  </p>
+	</div>
+{% endfor %}
+{% endblock %}

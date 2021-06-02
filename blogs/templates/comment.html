@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <!--This tag is a Django security feature-->
+        {{form.as_p}}
+        <button type="submit" class="btn btn-success">Add comment</button>
+    </form>
+</div>
+{% endblock %}

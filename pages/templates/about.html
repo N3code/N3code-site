@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="intro-styling">
+	<div class="team-name">
+		<h3 class="team-title">N3code team</h3>
+	</div>
+	<div class="site-slogan">
+		<p class="site-slogan-text"><b>Inspired to create and passionate to learn.</b></p>
+	</div>
+	<div class="we-are">
+		<div class="we-are-container">
+			<div class="we-are-title">
+				<p><b>Who are we?</b></p>
+			</div>
+			<div class="we-are-text">
+				<p>We are a group of student from around the world who want to learn the world of IT through collaborative projects.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="meet-the-team">
+	<div class="meet-the-team-title">
+		<p><b>Meet the team</b></p>
+	</div>
+	<div class="meet-the-team-card-container">
+		<div class="card" style="width:25rem; margin: auto; margin-bottom: 25px; border-radius: 25px; color:#FFFF;background: rgb(247,146,86);background: linear-gradient(180deg, rgba(247,146,86,1) 37%, rgba(29,78,137,1) 80%);	font-family: 'Cabin', sans-serif;">
+		  <img class="card-img-top" src="{% static 'plswork.png' %}">
+		  <div class="card-body">
+		    <h5 class="card-title">Daniil Lebedev</h5>
+		    <p class="card-text">I love to build web applications and apps.</p>
+		    <a href="{% url 'dannilPage' %}" class=" btn btn-success" style="border-radius: 25px; background-color:#F79256;	font-family: 'Cabin', sans-serif;">Visit personal page</a>
+		  </div>
+		</div>
+		<div class="card" style="width:25rem; margin: auto; margin-bottom: 25px; border-radius: 25px; color:#FFFF;background: rgb(247,146,86);background: linear-gradient(180deg, rgba(247,146,86,1) 37%, rgba(29,78,137,1) 80%);	font-family: 'Cabin', sans-serif;">
+		  <img class="card-img-top" src="{% static 'plswork.png' %}">
+		  <div class="card-body">
+		    <h5 class="card-title">Sreejith</h5>
+		    <p class="card-text">Make your own story!</p>
+		    <a href="{% url 'dannilPage' %}" class=" btn btn-success" style="border-radius: 25px; background-color:#F79256;	font-family: 'Cabin', sans-serif;">Visit personal page</a>
+		  </div>
+		</div>
+		<div class="card" style="width:25rem; margin: auto; margin-bottom: 25px; border-radius: 25px; color:#FFFF;background: rgb(247,146,86);background: linear-gradient(180deg, rgba(247,146,86,1) 37%, rgba(29,78,137,1) 80%);	font-family: 'Cabin', sans-serif;">
+		  <img class="card-img-top" src="{% static 'plswork.png' %}">
+		  <div class="card-body">
+		    <h5 class="card-title">Renato</h5>
+		    <p class="card-text">I love doing short, challenging and timed programming projects!</p>
+		    <a href="{% url 'renatoPage' %}" class=" btn btn-success" style="border-radius: 25px; background-color:#F79256;	font-family: 'Cabin', sans-serif;">Visit personal page</a>
+		  </div>
+		</div>
+		<div class="card" style="width:25rem; margin: auto; margin-bottom: 25px; border-radius: 25px; color:#FFFF;background: rgb(247,146,86);background: linear-gradient(180deg, rgba(247,146,86,1) 37%, rgba(29,78,137,1) 80%);	font-family: 'Cabin', sans-serif;">
+		  <img class="card-img-top" src="{% static 'plswork.png' %}">
+		  <div class="card-body">
+		    <h5 class="card-title">Tan</h5>
+		    <p class="card-text">Make your own story!</p>
+		    <a href="{% url 'dannilPage' %}" class=" btn btn-success" style="border-radius: 25px; background-color:#F79256;	font-family: 'Cabin', sans-serif;">Visit personal page</a>
+		  </div>
+		</div>
+	</div>
+</div>
+{% endblock %}

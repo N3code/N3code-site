@@ -1,0 +1,327 @@
+/*media styling*/
+@media (min-width: 375px) {
+  :root {
+    --size-divisor: 2;
+  }
+}
+
+@media (min-width: 576px) {
+  :root {
+    --size-divisor: 3;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --size-divisor: 1.5;
+  }
+}
+@media (min-width: 992px) { 
+  :root {
+    --size-divisor: 1;
+  }
+}
+@media (min-width: 1200px) { 
+  :root {
+    --size-divisor: 1;
+  }
+}
+
+
+
+.body{
+	font-family: 'Cabin', sans-serif;
+}
+
+.intro-styling{
+	background: rgb(2,0,36);
+	background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(29,78,137,1) 49%, rgba(125,207,182,1) 100%); 
+}
+.team-name{
+	padding-top: 105px;
+	color:#FFFF;
+	align-content: center;
+}
+
+.team-title{
+	text-align: center;
+	animation-name: title;
+	animation-duration: 3s;
+}
+
+.site-slogan{
+	margin-top:calc(100px / var(--size-divisor));
+	align-self: center;
+	margin-bottom:calc(555px/var(--size-divisor));
+	animation-name: title;
+	animation-duration: 3s;
+}
+
+@keyframes title {
+  from {opacity: 0%}
+  to {opacity: 100%}
+}
+
+
+.site-slogan-text{
+	margin:auto;
+	height:calc(160px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(95px / var(--size-divisor));
+	color:#FFFF;
+}
+
+
+.we-are{
+	margin-top:25px; 
+	background-color:#7DCFB6;
+	height:650px;
+	width:auto;
+}
+
+.we-are-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: auto;
+}
+
+
+.we-are-title{
+	margin-top:calc(235px / var(--size-divisor));
+	margin-left: auto;
+	margin-right: auto;
+	height:calc(200px / var(--size-divisor));
+	width:calc(420px / var(--size-divisor));
+	color:#FFFF;
+	font-size:calc(85px / var(--size-divisor));
+	text-align: center;
+}
+
+.we-are-text{
+	margin-top:calc(235px / var(--size-divisor));
+	margin-left: auto;
+	margin-right: auto;
+	height:190px;
+	width:700px;
+	color:#FFFF;
+	font-size:calc(45px / var(--size-divisor));
+	text-align: center;
+	align-self: center;
+}
+
+.meet-the-team{
+	padding-top: 35px;
+	background-color:#00B2CA;
+	width: auto;
+	height: auto;
+}
+
+.meet-the-team-title{
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+	text-align: center;
+}
+
+.meet-the-team-card-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+}
+
+
+
+.blog{
+	margin-top: 35px;
+	margin-bottom: 25px;
+	color: #FFFF;
+	align-content: center;
+	align-self: center;
+}
+
+
+/*daniil page styling*/
+
+.daniil-intro-styling{
+	background: rgb(29,78,137);
+	background: linear-gradient(180deg, rgba(29,78,137,1) 49%, rgba(0,178,202,1) 100%); 
+}
+
+.daniil-intro-title{
+	padding-top: 75px;
+	align-self: center;
+	margin-bottom:calc(25px/var(--size-divisor));
+}
+
+.daniil-intro-text{
+	margin:auto;
+	height:calc(110px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+}
+
+.separator{
+	width:calc(430px/var(--size-divisor));
+	height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:calc(15px/var(--size-divisor));
+	background-color:#EF8354;
+	border-radius: 25px;
+}
+
+.about-me{
+	margin-top:25px; 
+	background-color: #4F5D75;
+	opacity: 0.8;
+	background-image:  linear-gradient(30deg, #EF8354 12%, transparent 12.5%, transparent 87%, #EF8354 87.5%, #EF8354), linear-gradient(150deg, #EF8354 12%, transparent 12.5%, transparent 87%, #EF8354 87.5%, #EF8354), linear-gradient(30deg, #EF8354 12%, transparent 12.5%, transparent 87%, #EF8354 87.5%, #EF8354), linear-gradient(150deg, #EF8354 12%, transparent 12.5%, transparent 87%, #EF8354 87.5%, #EF8354), linear-gradient(60deg, #EF835477 25%, transparent 25.5%, transparent 75%, #EF835477 75%, #EF835477), linear-gradient(60deg, #EF835477 25%, transparent 25.5%, transparent 75%, #EF835477 75%, #EF835477);
+	background-size: 36px 63px;
+	background-position: 0 0, 0 0, 18px 32px, 18px 32px, 0 0, 18px 32px;
+	height:650px;
+	width:auto;
+}
+.daniil-intro-small{
+	margin-top: 75px;
+	align-self: center;
+	margin-bottom:calc(300px/var(--size-divisor));
+}
+
+.daniil-intro-small-text{
+	margin:auto;
+	height:calc(270px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(25px / var(--size-divisor));
+	color:#FFFF;
+	margin-bottom: 75px;
+}
+.meet-daniil{
+	width: auto;
+	height: auto;
+	width:auto;
+	background: rgba( 255, 255, 255, 0.60 );
+	-webkit-backdrop-filter: blur( 0.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.meet-daniil-title{
+	margin-top: 25px;
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+	text-align: center;
+	margin:auto;
+}
+
+.meet-daniil-card-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+}
+
+.daniil-skills{
+	background-image: url(daniil-images/better-background.svg);
+}
+.daniil-skills-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.contact-me{
+	width: auto;
+	height: auto;
+	width:auto;
+	background: rgba( 255, 255, 255, 0.60 );
+	-webkit-backdrop-filter: blur( 0.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.contact-me-title{
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+	text-align: center;
+	margin:auto;
+}
+
+.contact-me-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+}
+
+.circle{
+	height: 250px;
+  width: 250px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+
+/*renato page styling*/
+
+.renato-intro-styling{
+	background: rgb(2,0,36);
+	background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(29,78,137,1) 49%, rgba(125,207,182,1) 100%); 
+}
+
+.renato-intro-title{
+	padding-top: 75px;
+	align-self: center;
+	margin-bottom:calc(25px/var(--size-divisor));
+}
+
+.renato-intro-text{
+	margin:auto;
+	height:calc(110px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(75px / var(--size-divisor));
+	color:#FFFF;
+}
+
+.renato-intro-small{
+	margin-top: 75px;
+	align-self: center;
+	margin-bottom:calc(100px/var(--size-divisor));
+}
+
+.renato-intro-small-text{
+	margin:auto;
+	height:calc(270px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(25px / var(--size-divisor));
+	color:#FFFF;
+}
+
+.renato-disclaimer-text{
+	margin:auto;
+	height:calc(15px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(15px / var(--size-divisor));
+	color:#F79256;
+	font-weight: bold
+}
+/*
+.renato-profile-picture{
+
+	Add profile picture settings!!!
+}
+
+*/
+
+
