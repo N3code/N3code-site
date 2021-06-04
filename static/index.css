@@ -157,7 +157,7 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #F79256;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -170,9 +170,12 @@ a {
   color: black;
 }
 
-button:hover, a:hover {
-  opacity: 0.7;
+button:hover{
+  background-color:#7DCFB6 ;
 }
+
+
+
 
 
 /* Blogs styling*/

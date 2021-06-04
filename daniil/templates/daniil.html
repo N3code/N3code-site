@@ -3,11 +3,11 @@
 
 {% block content %}
 <div class="daniil-intro-styling">
-	<div class="daniil-intro-title">
+	<div data-aos="zoom-in" class="daniil-intro-title">
 		<p class="daniil-intro-text">Who is Daniil Lebedev?</p>
 	</div>
-	<div class="separator"></div>
-	<div class="daniil-intro-small">
+	<div data-aos="zoom-in" class="separator"></div>
+	<div data-aos="zoom-in" class="daniil-intro-small">
 		<p class="daniil-intro-small-text">Hi, my name is Daniil Lebedev and 
 		I am a student who just finished school and now tried to improve his skills and make new connections. I love programming and IT. I try to build projects which I would use myself and see what new I can learn. Feel free to contact me to make a project together. I am young and energetic, ready to learn new skills and build interesting solutions! I am really happy that you decided to pay me a visist!
 		</p>
@@ -16,8 +16,8 @@
 	<div class="meet-daniil-title">
 		<p><b>A little about me...</b></p>
 	</div>
-	<div class="meet-daniil-card-container">
-		<div class="card" style="width: 18rem; margin: auto; border-radius: 25px; margin-top:25px;margin-bottom: 25px; color:#FFFF;font-family: 'Cabin', sans-serif;background-color:#F79256;">
+	<div  class="meet-daniil-card-container">
+		<div data-aos="flip-left" class="card" style="width: 18rem; margin: auto; border-radius: 25px; margin-top:25px;margin-bottom: 25px; color:#FFFF;font-family: 'Cabin', sans-serif;background-color:#F79256;">
 		  <img class="card-img-top" src="{% static 'daniil-images/Russia-flag.png' %}" alt="Card image cap">
 		  <div class="card-body">
 		    <h5 class="card-title">Where am I from?</h5>
@@ -26,7 +26,7 @@
 		  <div class="card-body">
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem; margin: auto; border-radius: 25px; margin-top:25px;margin-bottom: 25px; color:#FFFF;font-family: 'Cabin', sans-serif;background-color:#F79256;">
+		<div data-aos="flip-left" class="card" style="width: 18rem; margin: auto; border-radius: 25px; margin-top:25px;margin-bottom: 25px; color:#FFFF;font-family: 'Cabin', sans-serif;background-color:#F79256;">
 		  <img class="card-img-top" src="{% static 'daniil-images/thinking.png' %}" alt="Card image cap">
 		  <div class="card-body">
 		    <h5 class="card-title">My interests</h5>
@@ -35,7 +35,7 @@
 		  <div class="card-body">
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem; margin: auto; border-radius: 25px; margin-top:25px;margin-bottom: 25px; color:#FFFF;font-family: 'Cabin', sans-serif;background-color:#F79256;">
+		<div data-aos="flip-left" class="card" style="width: 18rem; margin: auto; border-radius: 25px; margin-top:25px;margin-bottom: 25px; color:#FFFF;font-family: 'Cabin', sans-serif;background-color:#F79256;">
 		  <img class="card-img-top" src="{% static 'daniil-images/school.png' %}" alt="Card image cap">
 		  <div class="card-body">
 		    <h5 class="card-title">My education</h5>
@@ -44,7 +44,7 @@
 		  <div class="card-body">
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem; margin: auto; border-radius: 25px; margin-top:25px;margin-bottom: 25px; color:#FFFF;font-family: 'Cabin', sans-serif;background-color:#F79256;">
+		<div data-aos="flip-left" class="card" style="width: 18rem; margin: auto; border-radius: 25px; margin-top:25px;margin-bottom: 25px; color:#FFFF;font-family: 'Cabin', sans-serif;background-color:#F79256;">
 		  <img class="card-img-top" src="{% static 'daniil-images/tennis.png' %}" alt="Card image cap">
 		  <div class="card-body">
 		    <h5 class="card-title">My hobbies</h5>
@@ -57,11 +57,11 @@
 </div>
 <div class="daniil-skills">
 	<div class="meet-daniil-title">
-			<p><b>My skills</b></p>
+		<p><b>My skills</b></p>
 	</div>
 		<div class="daniil-skills-container">
 
-			<div class="card" style="width: 18rem; margin: auto; margin-top: 25px;margin-bottom: 25px; border-radius: 25px; opacity: 90%;">
+			<div data-aos="flip-right" class="card" style="width: 18rem; margin: auto; margin-top: 25px;margin-bottom: 25px; border-radius: 25px; opacity: 90%;">
 			  <img class="card-img-top" src="{% static 'daniil-images/snake.png' %}" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">Python</h5>
@@ -69,15 +69,15 @@
 			  </div>
 			</div>
 
-			<div class="card" style="width: 18rem; margin: auto; margin-top: 25px;margin-bottom: 25px;border-radius: 25px; opacity: 90%;">
+			<div data-aos="flip-right" class="card" style="width: 18rem; margin: auto; margin-top: 25px;margin-bottom: 25px;border-radius: 25px; opacity: 90%;">
 			  <img class="card-img-top" src="{% static 'daniil-images/rocket.png' %}" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">HTML and CSS</h5>
 			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 			  </div>
 			</div>
-			<!---SMALL COMMENT-->
-			<div class="card" style="width: 18rem; margin: auto; margin-top: 25px;margin-bottom: 25px;border-radius: 25px; opacity: 90%;">
+
+			<div data-aos="flip-right" class="card" style="width: 18rem; margin: auto; margin-top: 25px;margin-bottom: 25px;border-radius: 25px; opacity: 90%;">
 			  <img class="card-img-top" src="{% static 'daniil-images/yellow.png' %}" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">JS</h5>
@@ -85,7 +85,7 @@
 			  </div>
 			</div>
 
-			<div class="card" style="width: 18rem; margin: auto; margin-top: 25px;margin-bottom: 25px;border-radius: 25px; opacity: 90%;">
+			<div data-aos="flip-right" class="card" style="width: 18rem; margin: auto; margin-top: 25px;margin-bottom: 25px;border-radius: 25px; opacity: 90%;">
 			  <img class="card-img-top" src="{% static 'daniil-images/brick.png' %}" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">SQLite</h5>
@@ -96,7 +96,7 @@
 	</div>
 </div>
 <div class="contact-me">
-	<div class="contact-us-title">
+	<div class="contact-me-title">
 		<p><b>Contact me</b></p>
 	</div>
 	<div class="contact-me-container">
