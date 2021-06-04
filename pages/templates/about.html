@@ -10,7 +10,7 @@
 		<p class="site-slogan-text"><b>Inspired to create and passionate to learn.</b></p>
 	</div>
 	<div class="we-are">
-		<div class="we-are-container">
+		<div data-aos="fade-up" class="we-are-container">
 			<div class="we-are-title">
 				<p><b>Who are we?</b></p>
 			</div>
@@ -22,11 +22,11 @@
 </div>
 
 <div class="meet-the-team">
-	<div class="meet-the-team-title">
+	<div data-aos="fade-up" class="meet-the-team-title">
 		<p><b>Meet the team</b></p>
 	</div>
 	<div class="meet-the-team-card-container">
-		<div class="card">
+		<div data-aos="fade-left" class="card">
 		  <img src="{% static 'daniil-images/background1.svg' %}" alt="John" style="width:100%">
 		  <h1>Daniil Lebedev</h1>
 		  <p class="title">Co-funder, backend and fronend developer.</p>
@@ -34,9 +34,9 @@
 		  <a href="https://github.com/daniil-lebedev"><img src="https://img.icons8.com/wired/50/000000/github.png"/></a>
 		  <a href="https://www.linkedin.com/in/daniil-lebedev-402ab61a6/"><img src="https://img.icons8.com/ios/50/000000/linkedin-circled--v1.png"/></a>
 		  <a href="https://t.me/Daniil_Lebedev23"><img src="https://img.icons8.com/wired/50/000000/telegram-app.png"/></a>
-		  <a class="btn" style="background-color:#F79256; border-radius: 25px; color: white;" href="{% url 'dannilPage' %}" role="button">Visit page</a>
+		  <a href="{% url 'dannilPage' %}"><button>Visit page</button></a>
 		</div>
-		<div class="card">
+		<div data-aos="fade-down" class="card">
 		  <img src="{% static 'daniil-images/background1.svg' %}" alt="John" style="width:100%">
 		  <h1>Sreejith</h1>
 		  <p class="title">Your role and skills</p>
@@ -44,9 +44,9 @@
 		  <a href="#"><img src="https://img.icons8.com/wired/50/000000/github.png"/></a>
 		  <a href="#"><img src="https://img.icons8.com/ios/50/000000/linkedin-circled--v1.png"/></a>
 		  <a href="#"><img src="https://img.icons8.com/wired/50/000000/telegram-app.png"/></a>
-		  <a class="btn" style="background-color:#F79256; border-radius: 25px; color: white;" href="#" role="button">Visit page</a>
+		  <a href="{% url 'sreejithPage' %}"><button>Visit page</button></a>
 		</div>
-		<div class="card">
+		<div data-aos="fade-right" class="card">
 		  <img src="{% static 'daniil-images/background1.svg' %}" alt="John" style="width:100%">
 		  <h1>Renato</h1>
 		  <p class="title">Your role and skills</p>
@@ -54,7 +54,7 @@
 		  <a href="#"><img src="https://img.icons8.com/wired/50/000000/github.png"/></a>
 		  <a href="#"><img src="https://img.icons8.com/ios/50/000000/linkedin-circled--v1.png"/></a>
 		  <a href="#"><img src="https://img.icons8.com/wired/50/000000/telegram-app.png"/></a>
-		  <a class="btn" style="background-color:#F79256; border-radius: 25px; color: white;" href="#" role="button">Visit page</a>
+		  <a href="{% url 'renatoPage' %}"><button>Visit page</button></a>
 		</div>
 	</div>
 </div>
