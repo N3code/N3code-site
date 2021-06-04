@@ -89,7 +89,7 @@
 
 
 .we-are-title{
-	margin-top:calc(235px / var(--size-divisor));
+	margin-top:calc(85px / var(--size-divisor));
 	margin-left: auto;
 	margin-right: auto;
 	height:calc(200px / var(--size-divisor));
@@ -100,7 +100,7 @@
 }
 
 .we-are-text{
-	margin-top:calc(235px / var(--size-divisor));
+	margin-top:calc(95px / var(--size-divisor));
 	margin-left: auto;
 	margin-right: auto;
 	height:190px;
@@ -109,6 +109,7 @@
 	font-size:calc(45px / var(--size-divisor));
 	text-align: center;
 	align-self: center;
+	margin-bottom: 25px;
 }
 
 .meet-the-team{
