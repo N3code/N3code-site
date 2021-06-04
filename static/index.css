@@ -354,13 +354,58 @@ button:hover{
 
 .renato-disclaimer-text{
 	margin:auto;
-	height:calc(15px / var(--size-divisor));
+	height:calc(20px / var(--size-divisor));
 	width:calc(750px / var(--size-divisor));
 	text-align: center;
 	font-size:calc(15px / var(--size-divisor));
 	color:#F79256;
 	font-weight: bold
 }
+
+.renato-headers-text{
+
+	margin:auto;
+	height:calc(110px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(40px / var(--size-divisor));
+	color:#FFFF;
+
+}
+
+.renato-social-media-format{
+
+	margin:auto;
+	height:calc(30px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(30px / var(--size-divisor));
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+
+}
+
+.fa-linkedin{
+
+	background: white;
+  color: black;
+
+}
+
+.fa-github{
+
+	background: white;
+  color: black;
+
+}
+
+.fa-envelope{
+
+	background: white;
+  color: black;
+
+}
+
 /*
 .renato-profile-picture{
 
