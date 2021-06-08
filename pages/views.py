@@ -8,3 +8,8 @@ def aboutPage(request):
 	"""function to render about page"""
 
 	return render(request, 'about.html')
+
+def comingSoonPage(request):
+	"""fucntion to return the coming soon page which will be applied to every page which is not finished"""
+
+	return render(request, 'coming.html')

@@ -28,6 +28,7 @@ def addComment(request):
 		form = AddComment(request.POST or None)
 		if form.is_valid():
 			form.save()
+			messages.success(request, "Comment created!" )
 			return redirect('blogsPage')
 
 	return render(request, 'comment.html', context)
