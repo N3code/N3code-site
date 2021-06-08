@@ -59,7 +59,7 @@ INSTALLED_APPS = [
     #blogs application
     'blogs'
 ]
-
+#
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
