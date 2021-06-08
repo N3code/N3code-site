@@ -176,7 +176,44 @@ button:hover{
 }
 
 
+/*error page*/
+.apol-styling{
+	width: auto;
+	height: auto;
+	width:auto;
+	background: rgba( 255, 255, 255, 0.60 );
+	-webkit-backdrop-filter: blur( 0.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.apol-con{
+	padding-top: 105px;
+	color:black;
+	align-content: center;
+}
 
+.apo-title{
+	text-align: center;
+	animation-name: title;
+	animation-duration: 3s;
+}
+
+.apo-slogan{
+	margin-top:calc(100px / var(--size-divisor));
+	align-self: center;
+	margin-bottom:calc(555px/var(--size-divisor));
+	animation-name: title;
+	animation-duration: 3s;
+}
+
+.apo-slogan-text{
+	margin:auto;
+	height:calc(160px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(95px / var(--size-divisor));
+	color:black;
+}
 
 
 /* Blogs styling*/
@@ -188,6 +225,16 @@ button:hover{
 	align-self: center;
 }
 
+/*Comment styling*/
+.comment{
+	width: auto;
+	height: auto;
+	width:auto;
+	background: rgba( 255, 255, 255, 0.60 );
+	-webkit-backdrop-filter: blur( 0.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 
 /*daniil page styling*/
 
