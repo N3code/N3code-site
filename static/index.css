@@ -314,7 +314,32 @@ button:hover{
   margin: auto;
 }
 
+/*olly page styling*/
+.olly-intro-styling{
+	background-image: url(olly-images/backgroundcontent.jpg);
+}
 
+.olly-intro-title{
+	padding-top: 75px;
+	align-self: center;
+	margin-bottom:calc(25px/var(--size-divisor));
+}
+
+.olly-intro-small{
+	margin-top: 75px;
+	align-self: center;
+	margin-bottom:calc(300px/var(--size-divisor));
+}
+
+.olly-intro-small-text{
+	margin:auto;
+	height:calc(270px / var(--size-divisor));
+	width:calc(750px / var(--size-divisor));
+	text-align: center;
+	font-size:calc(25px / var(--size-divisor));
+	color:#FFFF;
+	margin-bottom: 75px;
+}
 
 /*renato page styling*/
 
