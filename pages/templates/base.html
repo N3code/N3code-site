@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,7 +13,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -23,7 +24,7 @@
     <!--Favicon--->
     <!--Incase you want to change the favicons from daniil's to sreejith's please do the following:
     1.change the path froom daniil-favicon to sreejith-favicon or other way round.
-    2. Run the server and make sure that everything works--> 
+    2. Run the server and make sure that everything works-->
     <link rel="apple-touch-icon" sizes="180x180" href="{% static 'daniil-favicon/apple-touch-icon.png' %}">
     <link rel="icon" type="image/png" sizes="32x32" href="{% static 'daniil-favicon/favicon-32x32.png' %}">
     <link rel="icon" type="image/png" sizes="16x16" href="{% static 'daniil-favicon/favicon-16x16.png' %}">
@@ -35,47 +36,46 @@
     <title> N3code </title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
 
     <!-- Font Awesome Link (Icon folder) --->
     <script src="https://kit.fontawesome.com/caa130d9a0.js" crossorigin="anonymous"></script>
-  </head>
+</head>
 
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#F79256;font-family: 'Cabin', sans-serif;">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color:#F79256;font-family: 'Cabin', sans-serif; opacity: 90%;">
     <a class="navbar-brand" href="{% url 'aboutPage' %}">About</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle navbar-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navbar-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Team
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{% url 'dannilPage' %}">Daniil</a>
-            <a class="dropdown-item" href="{% url 'renatoPage' %}">Renato</a>
-            <a class="dropdown-item" href="{% url 'comingSoonPage' %}">Sreejith</a>
-            <a class="dropdown-item" href="{% url 'comingSoonPage' %}">Olly</a>
-            <!--<a class="dropdown-item" href="{% url 'comingSoonPage' %}">Tan</a>-->
-            <a class="dropdown-item" href="{% url 'comingSoonPage' %}">Aila</a>
-          </div>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="{% url 'blogsPage' %}">Blogs <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{% url 'dannilPage' %}">Daniil</a>
+                    <a class="dropdown-item" href="{% url 'renatoPage' %}">Renato</a>
+                    <a class="dropdown-item" href="{% url 'comingSoonPage' %}">Sreejith</a>
+                    <a class="dropdown-item" href="{% url 'comingSoonPage' %}">Olly</a>
+                    <!--<a class="dropdown-item" href="{% url 'comingSoonPage' %}">Tan</a>-->
+                    <a class="dropdown-item" href="{% url 'comingSoonPage' %}">Aila</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'blogsPage' %}">Blogs <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
     </div>
-  </nav>
+</nav>
 
-  <body class="body">
+<body class="body">
     <!--This is a special block which will be used to conntect code from one page to base.html. This tags tell Django add the stuff above like the navbar to code in the tags-->
-    {% block content %}
-
-    {%endblock%}
+    {% block content %} {%endblock%}
     <script>
-      AOS.init();
+        AOS.init();
     </script>
-  </body>
+</body>
+
 </html>
