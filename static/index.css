@@ -307,6 +307,30 @@ button-project:hover {
     border: 1px solid rgba( 255, 255, 255, 0.18);
 }
 
+/*sreejith styling*/
+.meet-sreejith {
+    height: auto;
+    width: auto;
+    background: rgba( 255, 255, 255, 0.60);
+    -webkit-backdrop-filter: blur( 0.0px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.meet-sreejith-title {
+    margin-top: 25px;
+    font-size: calc(75px / var(--size-divisor));
+    color: #FFFF;
+    text-align: center;
+    margin: auto;
+}
+
+.meet-sreejith-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 
 /*daniil page styling*/
 
@@ -368,7 +392,6 @@ button-project:hover {
 }
 
 .meet-daniil {
-    width: auto;
     height: auto;
     width: auto;
     background: rgba( 255, 255, 255, 0.60);
@@ -408,6 +431,7 @@ button-project:hover {
     height: auto;
     width: auto;
     background: rgba( 255, 255, 255, 0.60);
+    backdrop-filter: blur(00.0px);
     -webkit-backdrop-filter: blur( 0.0px);
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18);
