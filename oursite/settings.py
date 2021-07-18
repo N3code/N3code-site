@@ -30,7 +30,11 @@ SECRET_KEY = 'django-insecure-)^3#2hvd9=#7q!79=v$ex#a%72fl$*ht^lhlmrletdy8#(#mxq
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['n3code.herokuapp.com']
+ALLOWED_HOSTS = [
+    'n3code.herokuapp.com'
+
+
+]
 #test-run-app-sn3code.herokuapp.com
 #comment
 
