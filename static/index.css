@@ -307,15 +307,56 @@ button-project:hover {
     border: 1px solid rgba( 255, 255, 255, 0.18);
 }
 
-/*sreejith styling*/
-.meet-sreejith {
-    height: auto;
+
+/*personal-page styling. When building your personal page copy the styling and rename it*/
+
+.personal-welcome {
     width: auto;
-    background: rgba( 255, 255, 255, 0.60);
-    -webkit-backdrop-filter: blur( 0.0px);
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18);
+    height: 670px;
+    background: #7DCFB6;
 }
+
+.personal-name {
+    font-size: calc(85px / var(--size-divisor));
+    color: #FFFF;
+    margin: auto;
+    text-align: center;
+}
+
+.personal-role {
+    font-size: calc(45px / var(--size-divisor));
+    color: #FFFF;
+    margin: auto;
+    text-align: center;
+}
+
+.user-avatar {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.user-story {
+    height: 730px;
+    width: auto;
+    background-color: #00B2CA;
+}
+
+.user-story-title {
+    color: #FFFF;
+    font-size: 75px;
+}
+
+.user-story-separator {
+    width: 290px;
+    height: 20px;
+    color: #7DCFB6;
+    margin: auto;
+}
+
+
+/*sreejith styling*/
 
 .meet-sreejith-title {
     margin-top: 25px;
