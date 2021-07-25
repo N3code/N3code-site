@@ -7,5 +7,8 @@ urlpatterns = [
 	path('', views.aboutPage, name="aboutPage"),
 
 	#path for coming soon page
-	path('coming-soon', views.comingSoonPage, name="comingSoonPage")
+	path('coming-soon', views.comingSoonPage, name="comingSoonPage"),
+
+	#path for the personal page
+	path('personal-page-eg', views.personalPageEg, name="personal-page-eg")
 ]

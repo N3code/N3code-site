@@ -13,3 +13,8 @@ def comingSoonPage(request):
 	"""fucntion to return the coming soon page which will be applied to every page which is not finished"""
 
 	return render(request, 'coming.html')
+
+def personalPageEg(request):
+	"""function to load the personal page"""
+
+	return render(request, 'personal_page_eg.html')
