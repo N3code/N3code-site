@@ -346,13 +346,18 @@ button-project:hover {
 .user-story-title {
     color: #FFFF;
     font-size: 75px;
+    margin: auto;
 }
 
+
 .user-story-separator {
-    width: 290px;
-    height: 20px;
-    color: #7DCFB6;
-    margin: auto;
+    width: calc(430px/var(--size-divisor));
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(15px/var(--size-divisor));
+    background-color: #7DCFB6;
+    border-radius: 25px;
 }
 
 
