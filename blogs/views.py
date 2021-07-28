@@ -7,10 +7,10 @@ def blogsPage(request):
 	"""function to render the blogs page"""
 
 	#variable to collect all blog queries
-	blogs = Blogs.objects.all().order_by('pub_date')
+	blogs = Blogs.objects.all().order_by('pub_date').reverse()
 
 	#variable to collect all the comment queries
-	comments = Comment.objects.all().reverse()
+	comments = Comment.objects.all()
 
 	#dictionary to pass all the blog and comment queries as a variable
 	context = {'blogs':blogs,'comments':comments}
