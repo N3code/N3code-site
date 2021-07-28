@@ -241,6 +241,44 @@ button-project:hover {
     background-color: #7DCFB6;
 }
 
+.our-blogs {
+    width: auto;
+    height: auto;
+    background: hsla(187, 100%, 40%, 1);
+
+  background: linear-gradient(90deg, hsla(187, 100%, 40%, 1) 0%, hsla(354, 55%, 63%, 1) 50%, hsla(22, 91%, 65%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(187, 100%, 40%, 1) 0%, hsla(354, 55%, 63%, 1) 50%, hsla(22, 91%, 65%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(187, 100%, 40%, 1) 0%, hsla(354, 55%, 63%, 1) 50%, hsla(22, 91%, 65%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00B2CA", endColorstr="#D46C76", GradientType=1 );
+
+}
+
+.our-blogs-title {
+    font-size: calc(85px/var(--size-divisor));
+    margin: auto;
+    text-align: center;
+    color: #FFFF;
+}
+
+.card-blogs {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 18rem;
+    margin: auto;
+    text-align: center;
+    border-radius: 25%;
+    margin-bottom: 25px;
+}
+
+.card-blogs h1{
+  margin-top: 75px;
+}
+
+.card-blogs img{
+  border-radius: 25px;
+}
 
 /*error page*/
 

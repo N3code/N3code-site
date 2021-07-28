@@ -1,13 +1,13 @@
 from django.db import models
-
 # Create your models here.
+
 class Blogs(models.Model):
 	"""this class will contain all the blogs that we as admins can create"""
 
 	#Title of the blog
 	title = models.CharField(max_length = 100)
 
-	#The author of the blog, but it is not required to have one 
+	#The author of the blog, but it is not required to have one
 	author = models.CharField(max_length = 100, blank = True)
 
 	#The date when the blog was published

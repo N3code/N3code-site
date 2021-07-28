@@ -11,4 +11,5 @@ urlpatterns = [
 
 	#path for the personal page
 	path('personal-page-eg', views.personalPageEg, name="personal-page-eg")
+
 ]
