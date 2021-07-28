@@ -30,7 +30,7 @@
 		  <img src="{% static 'main-page/54.-Climbing.svg' %}" alt="John" style="width:100%">
 		  <h1>Daniil Lebedev</h1>
 		  <p class="title">Co-founder, backend and frontend developer.</p>
-		  <p>Dwight School London</p>
+		  <p>Newcastle University</p>
 		  <a href="https://github.com/daniil-lebedev"><img src="https://img.icons8.com/wired/50/000000/github.png"/></a>
 		  <a href="https://www.linkedin.com/in/daniil-lebedev-402ab61a6/"><img src="https://img.icons8.com/ios/50/000000/linkedin-circled--v1.png"/></a>
 		  <a href="https://t.me/Daniil_Lebedev23"><img src="https://img.icons8.com/wired/50/000000/telegram-app.png"/></a>
@@ -103,7 +103,7 @@
 		  <img src="{% static 'main-page/reiview-library-logo.png' %}" alt="John" style="width:100%">
 		  <h1 style="color: white;">Review library</h1>
 		  <p class="title-project">A simple site where people can share their review on books and articles.</p>
-		  <a class="a-project" href="https://github.com/N3code/review-library"><button class="button-for-card-project">Visit page</button></a>
+		  <a class="a-project" href="#read-more"><button class="button-for-card-project">Read more</button></a>
 		</div>
 	</div>
 </div>
@@ -143,5 +143,28 @@
 
 
 </div>
+
+<div id="read-more" class="first-project">
+	<div class="first-project-title">
+		<p><b>Ongoing project</b></p>
+	</div>
+
+	<div class="first-project-container">
+		<div data-aos="fade-up" class="first-project-card">
+		  <h1>Library review</h1>
+		  <p class="title-project"> It is a simple web-based app built to share book reviews. It is built using Python and Django, with some JS. It will be hosted on Heroku and using MySQL as it's databae.</p>
+			<p class="first-project-card-p">Technology stack:</p>
+		  <i class="fab fa-python"></i>
+		  <i class="fab fa-js"></i>
+		  <i class="fab fa-html5"></i>
+			<i class="fab fa-css3-alt"></i>
+			<i class="fas fa-database"></i>
+			<br>
+			<a class="a-project" href="https://github.com/N3code/review-library"><button class="button-for-card-project">Checkout the code</button></a>
+		</div>
+		<img data-aos="fade-down" class="laptop-image" src="{% static 'main-page/ongoing-project/cool-pic-0_macbookgrey_front.png' %}">
+	</div>
+</div>
+
 
 {% endblock %}

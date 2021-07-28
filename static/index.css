@@ -322,6 +322,54 @@ button-project:hover {
 }
 
 
+.first-project{
+  height: auto;
+  width: auto;
+  background-image: url(daniil-images/project-background-pls-work.svg);
+}
+
+.first-project-title{
+  font-size: calc(85px / var(--size-divisor));
+  margin: auto;
+  color: #FFFF;
+  text-align: center;
+}
+
+
+.first-project-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.first-project-card {
+    background-color: #F79256;
+    width: 350px;
+    height:400px;
+    text-align: center;
+    border-radius: 25%;
+    margin: auto;
+}
+
+.first-project-card h1{
+    padding-top:25px;
+    padding-bottom: 25px;
+    color: #FFFF;
+}
+
+.first-project-card-p{
+    padding-top:25px;
+    padding-bottom: 15px;
+    color: #FFFF;
+    font-size: 20px;
+}
+
+.laptop-image{
+  height:calc(650px / var(--size-divisor));
+  width: calc(650px / var(--size-divisor));
+  margin:auto;
+}
+
 /* Blogs styling*/
 
 .blog {
