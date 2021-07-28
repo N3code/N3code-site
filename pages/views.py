@@ -10,22 +10,30 @@ def aboutPage(request):
 	about page and display
 	the latest blog"""
 
-	#collect the object from the database
-	last_blog = Blogs.objects.all().reverse()[0]
+	#collect 3 latest blogs and display them on the page
+	last_blog_0 = Blogs.objects.all().reverse()[0]
+	last_blog_1 = Blogs.objects.all().reverse()[1]
+	last_blog_2 = Blogs.objects.all().reverse()[2]
 
 	#context dictionary to render the latest blog on the page
 	context = {
-	'last_blog':last_blog
+	'last_blog_0':last_blog_0,
+	'last_blog_1':last_blog_1,
+	'last_blog_2':last_blog_2
 	}
 
 	return render(request, 'about.html', context)
 
 def comingSoonPage(request):
-	"""fucntion to return the coming soon page which will be applied to every page which is not finished"""
+	"""fucntion to return the
+	coming soon page
+	which will be applied to
+	every page which is not finished"""
 
 	return render(request, 'coming.html')
 
 def personalPageEg(request):
-	"""function to load the personal page"""
+	"""function to
+	load the personal page"""
 
 	return render(request, 'personal_page_eg.html')

@@ -1,4 +1,4 @@
-from django.urls import path,include
+from django.urls import path
 from . import views
 urlpatterns = [
     #path for the page with all the blogs and comments
