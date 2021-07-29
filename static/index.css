@@ -338,17 +338,19 @@ button-project:hover {
 
 .first-project-container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .first-project-card {
-    background-color: #F79256;
-    width: 350px;
-    height:400px;
+    opacity: 90%;
+    background-color: #1D4E89;
+    width: calc(700px / var(--size-divisor));
+    height:100%;
     text-align: center;
-    border-radius: 25%;
-    margin: auto;
+    margin-top: 25px;
+    border-radius: 25px;
 }
 
 .first-project-card h1{
@@ -365,9 +367,8 @@ button-project:hover {
 }
 
 .laptop-image{
-  height:calc(650px / var(--size-divisor));
-  width: calc(650px / var(--size-divisor));
-  margin:auto;
+  height:100%;
+  width: 100%;
 }
 
 /* Blogs styling*/
