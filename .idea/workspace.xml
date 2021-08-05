@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ada88f-bad9-47e9-9803-601ee0a83662" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.requirements.txt.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Package install" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Licence.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,5 +32,16 @@
       <updated>1628161597493</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
