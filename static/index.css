@@ -408,6 +408,7 @@ button-project:hover {
     color: #FFFF;
     margin: auto;
     text-align: center;
+    text-shadow: black;
 }
 
 .personal-role {
@@ -424,29 +425,79 @@ button-project:hover {
     border-radius: 50%;
 }
 
+.find-out-more-button{
+    background-color: orange;
+    width: 200px;
+    height: 150px;
+    text-decoration: none;
+    align-self: center;
+}
 .user-story {
-    height: 730px;
+    height: auto;
     width: auto;
-    background-color: #00B2CA;
+    background-image: url(daniil-images/background-laptop.svg);
 }
 
 .user-story-title {
     color: #FFFF;
-    font-size: 75px;
-    margin: auto;
+    font-size:calc(75px / var(--size-divisor));
+    margin-left: 15px;
 }
 
 
 .user-story-separator {
-    width: calc(430px/var(--size-divisor));
+    width: calc(270px/var(--size-divisor));
     height: 10px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: calc(15px/var(--size-divisor));
     background-color: #7DCFB6;
     border-radius: 25px;
+    margin-bottom: 25px;
 }
 
+.story-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.story-card{
+    height: 550px;
+    width: 310px;
+    background-color:#7DCFB6;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.image-container{
+    display: flex;
+    align-items: center;
+}
+
+.story-image{
+    height:200px;
+    width: 250px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.story-card-title{
+  font-size: 35px;
+  color: #FFFF;
+  margin: auto; 
+  margin-left:15px; 
+}
+
+.story-text-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.story-text-container p{
+    color: #FFFF;
+    font-size:25px;
+    text-align: center;
+    margin: auto;
+}
 
 /*sreejith styling*/
 
@@ -462,9 +513,152 @@ button-project:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.personal-skills{
+    width: auto;
+    height:auto;
+    background-color:#F79256;
+
+}
+
+.personal-skills-title{
+    color: #FFFF;
+    font-size: calc(85px/var(--size-divisor));
+    margin-left: 15px;  
+}
+
+.personal-skills-separator {
+    width: calc(300px/var(--size-divisor));
+    height: 10px;
+    margin-top: calc(15px/var(--size-divisor));
+    background-color: #00B2CA;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.personal-skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.skills-card{
+    width: 370px;
+    height: 760px;
+    background-color:#00B2CA;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+
+.skills-image-container{
+    display: flex;
+    align-items: center;
+}
+
+.skills-image{
+   width: 270px;
+   height: 200px;
+   margin: auto;
+   align-self: center; 
+}
+
+.skills-title{
+    display: flex;
+    align-items: center;
+}
+
+.skills-title p{
+    font-size: 35px;
+    color: #FFFF;
+    margin: auto;
+}
+
+.skills-text-container{
+    display: flex;
+    width: 370px;
+    height: 180px;
+    text-align: center;
+}
+
+.skills-text-container{
+    display: flex;
+    flex-wrap: wrap;
+    color: #FFFF;
+    margin: auto;
+    font-size: 25px;
+}
+
+.skills-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #7DCFB6;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-top: 245px;
+    align-self: center;
+}
+
+.personal-project-section{
+    width: auto;
+    height: auto;
+    background-color:#7DCFB6;
+
+}
+
+.personal-project-title{
+    color: #FFFF;
+    font-size: calc(85px/var(--size-divisor));
+    margin-left: 15px;
+
+}
+
+.personal-project-title-underline {
+    width: calc(450px/var(--size-divisor));
+    height: 10px;
+    margin-top: calc(15px/var(--size-divisor));
+    background-color: #00B2CA;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.personal-project-card{
+    margin: auto;
+    width:calc(730px/var(--size-divisor));
+    height:calc(560px/var(--size-divisor));
+    background-color:#C4C4C4;
+    border-radius: 25px;
+}
+
+.personal-project-card-title{
+    margin-left: 15px;
+    color: #FFFF;
+    font-size:calc(65px/var(--size-divisor));
+
+}
+
+.personal-project-card-text{
+    color: #FFFF;
+    font-size:calc(25px/var(--size-divisor));
+    height: calc(230px/var(--size-divisor));
+    width: calc(730px/var(--size-divisor));
+    text-align: center;
 }
 
 
+
+
+/*-----------------------------------------------------------------------------------*/
 /*daniil page styling*/
 
 .daniil-intro-styling {
