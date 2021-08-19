@@ -638,6 +638,194 @@ button-project:hover {
     text-align: center;
 }
 
+/*--------------------------------------------------------------*/
+/*Aila page styling*/
+.aila-personal-welcome {
+    width: auto;
+    height: auto;
+    background: hsla(266, 78%, 52%, 1);
+    background: linear-gradient(90deg, hsla(266, 78%, 52%, 1) 0%, hsla(286, 59%, 60%, 1) 50%, hsla(329, 88%, 77%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(266, 78%, 52%, 1) 0%, hsla(286, 59%, 60%, 1) 50%, hsla(329, 88%, 77%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(266, 78%, 52%, 1) 0%, hsla(286, 59%, 60%, 1) 50%, hsla(329, 88%, 77%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7927E4", endColorstr="#B95BD5", GradientType=1 );
+}
+
+.aila-personal-name {
+    font-size: calc(85px / var(--size-divisor));
+    color: #FFFF;
+    margin: auto;
+    text-align: center;
+    text-shadow: black;
+}
+
+.aila-personal-role {
+    font-size: calc(45px / var(--size-divisor));
+    color: #FFFF;
+    margin: auto;
+    text-align: center;
+}
+
+.aila-avatar {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+}
+.aila-story {
+    height: auto;
+    width: auto;
+    background-image: url(aila-images/aila-background.svg);
+}
+
+.aila-story-title {
+    color: #FFFF;
+    font-size:calc(75px / var(--size-divisor));
+    margin-left: 15px;
+}
+
+
+.aila-story-separator {
+    width: calc(270px/var(--size-divisor));
+    height: 10px;
+    margin-top: calc(15px/var(--size-divisor));
+    background-color: #8E38DF;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+.aila-story-card{
+    height: 550px;
+    width: 310px;
+    background-color:#8E38DF;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.aila-image-container{
+    display: flex;
+    align-items: center;
+}
+
+.story-image{
+    height:200px;
+    width: 250px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.aila-story-card-title{
+  font-size: 35px;
+  color: #FFFF;
+  margin: auto; 
+  margin-left:15px; 
+}
+
+
+.aila-skills{
+    width: auto;
+    height:auto;
+    background-color:#A34ADA;
+
+}
+
+.aila-skills-title{
+    color: #FFFF;
+    font-size: calc(85px/var(--size-divisor));
+    margin-left: 15px;  
+}
+
+.aila-skills-separator {
+    width: calc(300px/var(--size-divisor));
+    height: 10px;
+    margin-top: calc(15px/var(--size-divisor));
+    background-color: #00B2CA;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+
+.aila-skills-card{
+    width: 370px;
+    height: 760px;
+    background-color:#00B2CA;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+
+
+.aila-skills-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #E37ECA;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-top: 245px;
+    align-self: center;
+}
+
+.aila-project-section{
+    width: auto;
+    height: auto;
+    background-color:#CE6CCF;
+
+}
+
+.aila-personal-project-title{
+    color: #FFFF;
+    font-size: calc(85px/var(--size-divisor));
+    margin-left: 15px;
+
+}
+
+.aila-personal-project-title-underline {
+    width: calc(450px/var(--size-divisor));
+    height: 10px;
+    margin-top: calc(15px/var(--size-divisor));
+    background-color: #00B2CA;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.aila-personal-project-card{
+    margin: auto;
+    width:calc(730px/var(--size-divisor));
+    height:calc(560px/var(--size-divisor));
+    background-color:#C4C4C4;
+    border-radius: 25px;
+}
+
+.aila-personal-project-card-title{
+    margin-left: 15px;
+    color: #FFFF;
+    font-size:calc(65px/var(--size-divisor));
+
+}
+
+.aila-personal-project-card-text{
+    color: #FFFF;
+    font-size:calc(25px/var(--size-divisor));
+    height: calc(230px/var(--size-divisor));
+    width: calc(730px/var(--size-divisor));
+    text-align: center;
+}
+
+
 
 
 

@@ -60,6 +60,8 @@ INSTALLED_APPS = [
     'sreejith',
     #application for tan
     'Tan',
+    #app for aila
+    'aila',
     #blogs application
     'blogs'
 ]
