@@ -146,7 +146,7 @@
     width: 18rem;
     margin: auto;
     text-align: center;
-    border-radius: 25%;
+    border-radius: 25px;
     margin-bottom: 25px;
 }
 
@@ -395,6 +395,7 @@ button-project:hover {
 }
 
 
+/*---------------------------------------------------------------------------------------------------------------*/
 /*personal-page styling. When building your personal page copy the styling and rename it*/
 
 .personal-welcome {
@@ -496,24 +497,6 @@ button-project:hover {
     color: #FFFF;
     font-size:25px;
     text-align: center;
-    margin: auto;
-}
-
-/*sreejith styling*/
-
-.meet-sreejith-title {
-    margin-top: 25px;
-    font-size: calc(75px / var(--size-divisor));
-    color: #FFFF;
-    text-align: center;
-    margin: auto;
-}
-
-.meet-sreejith-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    border-radius: 25px;
     margin: auto;
 }
 
@@ -654,6 +637,7 @@ button-project:hover {
     width: calc(730px/var(--size-divisor));
     text-align: center;
 }
+
 
 
 
