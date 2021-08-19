@@ -37,6 +37,9 @@ urlpatterns = [
     #path for tan
     path('Tan/', include('Tan.urls')),
 
+    #path for aila
+    path('aila/', include('aila.urls')),
+
 	#path for admin page in which you can do admin stuff:)
     path('admin/', admin.site.urls),
 
