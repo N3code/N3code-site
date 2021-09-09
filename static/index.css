@@ -142,7 +142,6 @@
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 18rem;
     margin: auto;
     text-align: center;
@@ -245,15 +244,10 @@ button-project:hover {
     width: auto;
     height: auto;
     background: hsla(187, 100%, 40%, 1);
-
-  background: linear-gradient(90deg, hsla(187, 100%, 40%, 1) 0%, hsla(354, 55%, 63%, 1) 50%, hsla(22, 91%, 65%, 1) 100%);
-
-  background: -moz-linear-gradient(90deg, hsla(187, 100%, 40%, 1) 0%, hsla(354, 55%, 63%, 1) 50%, hsla(22, 91%, 65%, 1) 100%);
-
-  background: -webkit-linear-gradient(90deg, hsla(187, 100%, 40%, 1) 0%, hsla(354, 55%, 63%, 1) 50%, hsla(22, 91%, 65%, 1) 100%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00B2CA", endColorstr="#D46C76", GradientType=1 );
-
+    background: linear-gradient(90deg, hsla(187, 100%, 40%, 1) 0%, hsla(354, 55%, 63%, 1) 50%, hsla(22, 91%, 65%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(187, 100%, 40%, 1) 0%, hsla(354, 55%, 63%, 1) 50%, hsla(22, 91%, 65%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(187, 100%, 40%, 1) 0%, hsla(354, 55%, 63%, 1) 50%, hsla(22, 91%, 65%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00B2CA", endColorstr="#D46C76", GradientType=1);
 }
 
 .our-blogs-title {
@@ -272,13 +266,14 @@ button-project:hover {
     margin-bottom: 25px;
 }
 
-.card-blogs h1{
-  margin-top: 75px;
+.card-blogs h1 {
+    margin-top: 75px;
 }
 
-.card-blogs img{
-  border-radius: 25px;
+.card-blogs img {
+    border-radius: 25px;
 }
+
 
 /*error page*/
 
@@ -321,55 +316,54 @@ button-project:hover {
     color: black;
 }
 
-
-.first-project{
-  height: auto;
-  width: auto;
-  background-image: url(daniil-images/project-background-pls-work.svg);
+.first-project {
+    height: auto;
+    width: auto;
+    background-image: url(daniil-images/project-background-pls-work.svg);
 }
 
-.first-project-title{
-  font-size: calc(85px / var(--size-divisor));
-  margin: auto;
-  color: #FFFF;
-  text-align: center;
+.first-project-title {
+    font-size: calc(85px / var(--size-divisor));
+    margin: auto;
+    color: #FFFF;
+    text-align: center;
 }
 
-
-.first-project-container{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
+.first-project-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .first-project-card {
     opacity: 90%;
     background-color: #1D4E89;
     width: calc(700px / var(--size-divisor));
-    height:100%;
+    height: 100%;
     text-align: center;
     margin-top: 25px;
     border-radius: 25px;
 }
 
-.first-project-card h1{
-    padding-top:25px;
+.first-project-card h1 {
+    padding-top: 25px;
     padding-bottom: 25px;
     color: #FFFF;
 }
 
-.first-project-card-p{
-    padding-top:25px;
+.first-project-card-p {
+    padding-top: 25px;
     padding-bottom: 15px;
     color: #FFFF;
     font-size: 20px;
 }
 
-.laptop-image{
-  height:100%;
-  width: 100%;
+.laptop-image {
+    height: 100%;
+    width: 100%;
 }
+
 
 /* Blogs styling*/
 
@@ -396,6 +390,8 @@ button-project:hover {
 
 
 /*---------------------------------------------------------------------------------------------------------------*/
+
+
 /*personal-page styling. When building your personal page copy the styling and rename it*/
 
 .personal-welcome {
@@ -426,13 +422,14 @@ button-project:hover {
     border-radius: 50%;
 }
 
-.find-out-more-button{
+.find-out-more-button {
     background-color: orange;
     width: 200px;
     height: 150px;
     text-decoration: none;
     align-self: center;
 }
+
 .user-story {
     height: auto;
     width: auto;
@@ -441,10 +438,9 @@ button-project:hover {
 
 .user-story-title {
     color: #FFFF;
-    font-size:calc(75px / var(--size-divisor));
+    font-size: calc(75px / var(--size-divisor));
     margin-left: 15px;
 }
-
 
 .user-story-separator {
     width: calc(270px/var(--size-divisor));
@@ -455,62 +451,62 @@ button-project:hover {
     margin-bottom: 25px;
 }
 
-.story-card-container{
+.story-card-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
 }
 
-.story-card{
+.story-card {
     height: 550px;
     width: 310px;
-    background-color:#7DCFB6;
+    background-color: #7DCFB6;
     border-radius: 25px;
     margin: auto;
     margin-bottom: 25px;
 }
-.image-container{
+
+.image-container {
     display: flex;
     align-items: center;
 }
 
-.story-image{
-    height:200px;
+.story-image {
+    height: 200px;
     width: 250px;
     border-radius: 25px;
     margin: auto;
 }
 
-.story-card-title{
-  font-size: 35px;
-  color: #FFFF;
-  margin: auto; 
-  margin-left:15px; 
+.story-card-title {
+    font-size: 35px;
+    color: #FFFF;
+    margin: auto;
+    margin-left: 15px;
 }
 
-.story-text-container{
+.story-text-container {
     display: flex;
     flex-wrap: wrap;
 }
-.story-text-container p{
+
+.story-text-container p {
     color: #FFFF;
-    font-size:25px;
+    font-size: 25px;
     text-align: center;
     margin: auto;
 }
 
-.personal-skills{
+.personal-skills {
     width: auto;
-    height:auto;
-    background-color:#F79256;
-
+    height: auto;
+    background-color: #F79256;
 }
 
-.personal-skills-title{
+.personal-skills-title {
     color: #FFFF;
     font-size: calc(85px/var(--size-divisor));
-    margin-left: 15px;  
+    margin-left: 15px;
 }
 
 .personal-skills-separator {
@@ -522,52 +518,52 @@ button-project:hover {
     margin-bottom: 25px;
 }
 
-.personal-skills-container{
+.personal-skills-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-.skills-card{
+.skills-card {
     width: 370px;
     height: 760px;
-    background-color:#00B2CA;
+    background-color: #00B2CA;
     margin: auto;
     margin-bottom: 25px;
     border-radius: 25px;
 }
 
-.skills-image-container{
+.skills-image-container {
     display: flex;
     align-items: center;
 }
 
-.skills-image{
-   width: 270px;
-   height: 200px;
-   margin: auto;
-   align-self: center; 
+.skills-image {
+    width: 270px;
+    height: 200px;
+    margin: auto;
+    align-self: center;
 }
 
-.skills-title{
+.skills-title {
     display: flex;
     align-items: center;
 }
 
-.skills-title p{
+.skills-title p {
     font-size: 35px;
     color: #FFFF;
     margin: auto;
 }
 
-.skills-text-container{
+.skills-text-container {
     display: flex;
     width: 370px;
     height: 180px;
     text-align: center;
 }
 
-.skills-text-container{
+.skills-text-container {
     display: flex;
     flex-wrap: wrap;
     color: #FFFF;
@@ -592,18 +588,16 @@ button-project:hover {
     align-self: center;
 }
 
-.personal-project-section{
+.personal-project-section {
     width: auto;
     height: auto;
-    background-color:#7DCFB6;
-
+    background-color: #7DCFB6;
 }
 
-.personal-project-title{
+.personal-project-title {
     color: #FFFF;
     font-size: calc(85px/var(--size-divisor));
     margin-left: 15px;
-
 }
 
 .personal-project-title-underline {
@@ -615,42 +609,42 @@ button-project:hover {
     margin-bottom: 25px;
 }
 
-.personal-project-card{
+.personal-project-card {
     margin: auto;
-    width:calc(730px/var(--size-divisor));
-    height:calc(560px/var(--size-divisor));
-    background-color:#C4C4C4;
+    width: calc(730px/var(--size-divisor));
+    height: calc(560px/var(--size-divisor));
+    background-color: #C4C4C4;
     border-radius: 25px;
 }
 
-.personal-project-card-title{
+.personal-project-card-title {
     margin-left: 15px;
     color: #FFFF;
-    font-size:calc(65px/var(--size-divisor));
-
+    font-size: calc(65px/var(--size-divisor));
 }
 
-.personal-project-card-text{
+.personal-project-card-text {
     color: #FFFF;
-    font-size:calc(25px/var(--size-divisor));
+    font-size: calc(25px/var(--size-divisor));
     height: calc(230px/var(--size-divisor));
     width: calc(730px/var(--size-divisor));
     text-align: center;
 }
 
+
 /*--------------------------------------------------------------*/
+
+
 /*Aila page styling*/
+
 .aila-personal-welcome {
     width: auto;
     height: auto;
     background: hsla(266, 78%, 52%, 1);
     background: linear-gradient(90deg, hsla(266, 78%, 52%, 1) 0%, hsla(286, 59%, 60%, 1) 50%, hsla(329, 88%, 77%, 1) 100%);
-
     background: -moz-linear-gradient(90deg, hsla(266, 78%, 52%, 1) 0%, hsla(286, 59%, 60%, 1) 50%, hsla(329, 88%, 77%, 1) 100%);
-
     background: -webkit-linear-gradient(90deg, hsla(266, 78%, 52%, 1) 0%, hsla(286, 59%, 60%, 1) 50%, hsla(329, 88%, 77%, 1) 100%);
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7927E4", endColorstr="#B95BD5", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7927E4", endColorstr="#B95BD5", GradientType=1);
 }
 
 .aila-personal-name {
@@ -675,20 +669,18 @@ button-project:hover {
     border-radius: 50%;
 }
 
+
 }
 .aila-story {
     height: auto;
     width: auto;
     background-image: url(aila-images/aila-background.svg);
 }
-
 .aila-story-title {
     color: #FFFF;
-    font-size:calc(75px / var(--size-divisor));
+    font-size: calc(75px / var(--size-divisor));
     margin-left: 15px;
 }
-
-
 .aila-story-separator {
     width: calc(270px/var(--size-divisor));
     height: 10px;
@@ -697,51 +689,40 @@ button-project:hover {
     border-radius: 25px;
     margin-bottom: 25px;
 }
-
-
-
-.aila-story-card{
+.aila-story-card {
     height: 550px;
     width: 310px;
-    background-color:#8E38DF;
+    background-color: #8E38DF;
     border-radius: 25px;
     margin: auto;
     margin-bottom: 25px;
 }
-
-.aila-image-container{
+.aila-image-container {
     display: flex;
     align-items: center;
 }
-
-.story-image{
-    height:200px;
+.story-image {
+    height: 200px;
     width: 250px;
     border-radius: 25px;
     margin: auto;
 }
-
-.aila-story-card-title{
-  font-size: 35px;
-  color: #FFFF;
-  margin: auto; 
-  margin-left:15px; 
+.aila-story-card-title {
+    font-size: 35px;
+    color: #FFFF;
+    margin: auto;
+    margin-left: 15px;
 }
-
-
-.aila-skills{
+.aila-skills {
     width: auto;
-    height:auto;
-    background-color:#A34ADA;
-
+    height: auto;
+    background-color: #A34ADA;
 }
-
-.aila-skills-title{
+.aila-skills-title {
     color: #FFFF;
     font-size: calc(85px/var(--size-divisor));
-    margin-left: 15px;  
+    margin-left: 15px;
 }
-
 .aila-skills-separator {
     width: calc(300px/var(--size-divisor));
     height: 10px;
@@ -750,18 +731,14 @@ button-project:hover {
     border-radius: 25px;
     margin-bottom: 25px;
 }
-
-
-.aila-skills-card{
+.aila-skills-card {
     width: 370px;
     height: 760px;
-    background-color:#00B2CA;
+    background-color: #00B2CA;
     margin: auto;
     margin-bottom: 25px;
     border-radius: 25px;
 }
-
-
 .aila-skills-button {
     border: none;
     outline: 0;
@@ -778,21 +755,16 @@ button-project:hover {
     margin-top: 245px;
     align-self: center;
 }
-
-.aila-project-section{
+.aila-project-section {
     width: auto;
     height: auto;
-    background-color:#CE6CCF;
-
+    background-color: #CE6CCF;
 }
-
-.aila-personal-project-title{
+.aila-personal-project-title {
     color: #FFFF;
     font-size: calc(85px/var(--size-divisor));
     margin-left: 15px;
-
 }
-
 .aila-personal-project-title-underline {
     width: calc(450px/var(--size-divisor));
     height: 10px;
@@ -801,49 +773,38 @@ button-project:hover {
     border-radius: 25px;
     margin-bottom: 25px;
 }
-
-.aila-personal-project-card{
+.aila-personal-project-card {
     margin: auto;
-    width:calc(730px/var(--size-divisor));
-    height:calc(560px/var(--size-divisor));
-    background-color:#C4C4C4;
+    width: calc(730px/var(--size-divisor));
+    height: calc(560px/var(--size-divisor));
+    background-color: #C4C4C4;
     border-radius: 25px;
 }
-
-.aila-personal-project-card-title{
+.aila-personal-project-card-title {
     margin-left: 15px;
     color: #FFFF;
-    font-size:calc(65px/var(--size-divisor));
-
+    font-size: calc(65px/var(--size-divisor));
 }
-
-.aila-personal-project-card-text{
+.aila-personal-project-card-text {
     color: #FFFF;
-    font-size:calc(25px/var(--size-divisor));
+    font-size: calc(25px/var(--size-divisor));
     height: calc(230px/var(--size-divisor));
     width: calc(730px/var(--size-divisor));
     text-align: center;
 }
 
-
-
-
-
-
 /*-----------------------------------------------------------------------------------*/
-/*daniil page styling*/
 
+/*daniil page styling*/
 .daniil-intro-styling {
     background: rgb(29, 78, 137);
     background: linear-gradient(180deg, rgba(29, 78, 137, 1) 49%, rgba(0, 178, 202, 1) 100%);
 }
-
 .daniil-intro-title {
     padding-top: 75px;
     align-self: center;
     margin-bottom: calc(25px/var(--size-divisor));
 }
-
 .daniil-intro-text {
     margin: auto;
     height: calc(110px / var(--size-divisor));
@@ -852,7 +813,6 @@ button-project:hover {
     font-size: calc(75px / var(--size-divisor));
     color: #FFFF;
 }
-
 .separator {
     width: calc(430px/var(--size-divisor));
     height: 10px;
@@ -862,7 +822,6 @@ button-project:hover {
     background-color: #EF8354;
     border-radius: 25px;
 }
-
 .about-me {
     margin-top: 25px;
     background-color: #4F5D75;
@@ -873,13 +832,11 @@ button-project:hover {
     height: 650px;
     width: auto;
 }
-
 .daniil-intro-small {
     margin-top: 75px;
     align-self: center;
     margin-bottom: calc(300px/var(--size-divisor));
 }
-
 .daniil-intro-small-text {
     margin: auto;
     height: calc(270px / var(--size-divisor));
@@ -889,7 +846,6 @@ button-project:hover {
     color: #FFFF;
     margin-bottom: 75px;
 }
-
 .meet-daniil {
     height: auto;
     width: auto;
@@ -898,7 +854,6 @@ button-project:hover {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18);
 }
-
 .meet-daniil-title {
     margin-top: 25px;
     font-size: calc(75px / var(--size-divisor));
@@ -906,25 +861,21 @@ button-project:hover {
     text-align: center;
     margin: auto;
 }
-
 .meet-daniil-card-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
 }
-
 .daniil-skills {
     background-image: url(daniil-images/better-background.svg);
 }
-
 .daniil-skills-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
-
 .contact-me {
     width: auto;
     height: auto;
@@ -935,46 +886,38 @@ button-project:hover {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18);
 }
-
 .contact-me-title {
     font-size: calc(75px / var(--size-divisor));
     color: #000000;
     text-align: center;
     margin: auto;
 }
-
 .contact-me-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
 }
-
 .circle {
     height: 250px;
     width: 250px;
     margin: auto;
 }
 
-
 /*Olly styling*/
-
 .olly-intro-styling {
     background-image: url(olly-images/Back2.jpg);
 }
-
 .olly-intro-title {
     padding-top: 75px;
     align-self: center;
     margin-bottom: calc(25px/var(--size-divisor));
 }
-
 .olly-intro-small {
     margin-top: 75px;
     align-self: center;
     margin-bottom: calc(300px/var(--size-divisor));
 }
-
 .olly-intro-small-text {
     margin: auto;
     height: calc(270px / var(--size-divisor));
@@ -985,20 +928,16 @@ button-project:hover {
     margin-bottom: 75px;
 }
 
-
 /*renato page styling*/
-
 .renato-intro-styling {
     background: rgb(2, 0, 36);
     background: linear-gradient(177deg, rgba(2, 0, 36, 1) 0%, rgba(29, 78, 137, 1) 49%, rgba(125, 207, 182, 1) 100%);
 }
-
 .renato-intro-title {
     padding-top: 75px;
     align-self: center;
     margin-bottom: calc(25px/var(--size-divisor));
 }
-
 .renato-intro-text {
     margin: auto;
     height: calc(110px / var(--size-divisor));
@@ -1007,13 +946,11 @@ button-project:hover {
     font-size: calc(75px / var(--size-divisor));
     color: #FFFF;
 }
-
 .renato-intro-small {
     margin-top: 75px;
     align-self: center;
     margin-bottom: calc(100px/var(--size-divisor));
 }
-
 .renato-intro-small-text {
     margin: auto;
     height: calc(270px / var(--size-divisor));
@@ -1022,7 +959,6 @@ button-project:hover {
     font-size: calc(25px / var(--size-divisor));
     color: #FFFF;
 }
-
 .renato-disclaimer-text {
     margin: auto;
     height: calc(20px / var(--size-divisor));
@@ -1032,7 +968,6 @@ button-project:hover {
     color: #F79256;
     font-weight: bold
 }
-
 .renato-headers-text {
     margin: auto;
     height: calc(110px / var(--size-divisor));
@@ -1041,7 +976,6 @@ button-project:hover {
     font-size: calc(40px / var(--size-divisor));
     color: #FFFF;
 }
-
 .renato-social-media-format {
     margin: auto;
     height: calc(30px / var(--size-divisor));
@@ -1051,22 +985,18 @@ button-project:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-
 .fa-linkedin {
     background: white;
     color: black;
 }
-
 .fa-github {
     background: white;
     color: black;
 }
-
 .fa-envelope {
     background: white;
     color: black;
 }
-
 
 /*
 .renato-profile-picture{

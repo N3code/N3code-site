@@ -1,9 +1,11 @@
 from django.shortcuts import render
 
-#packages needed for exporting the fiels as pdf
-import io
-from django.http import FileResponse
-from reportlab.pdfgen import canvas
+# Import mimetypes module
+import mimetypes
+# import os module
+import os
+# Import HttpResponse module
+from django.http.response import HttpResponse
 
 
 def dannilPage(request):
@@ -12,27 +14,22 @@ def dannilPage(request):
 	return render(request, 'daniil.html')
 
 
-def exportCertificate(request):
-	"""Upon click of the html
-	elemnt a certificate will
-	be exported as a pdf"""
 
-	# Create a file-like buffer to receive PDF data.
-	buffer = io.BytesIO()
-
-	# Create the PDF object, using the buffer as its "file."
-	p = canvas.Canvas(buffer)
-
-	# Draw things on the PDF. Here's where the PDF generation happens.
-	# See the ReportLab documentation for the full list of functionality.
-	p.drawString(100, 100, "Hello world.")
-
-	# Close the PDF object cleanly, and we're done.
-	p.showPage()
-	p.save()
-
-	# FileResponse sets the Content-Disposition header so that browsers
-	# present the option to save the file.
-	buffer.seek(0)
-	return FileResponse(buffer, as_attachment=True, filename='hello.pdf')
-	#https://linuxhint.com/download-the-file-in-django/
+# Define function to download pdf file using template
+def download_pdf_file(request):
+	# Define Django project base directory
+	BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+	filename = 'cert-1073-9082354.pdf'
+	# Define the full file path
+	filepath = BASE_DIR + '/static/' + filename
+	# Open the file for reading content
+	path = open(filepath, 'rb')
+	# Set the mime type
+	mime_type, _ = mimetypes.guess_type(filepath)
+	# Set the return value of the HttpResponse
+	response = HttpResponse(path, content_type=mime_type)
+	# Set the HTTP header for sending to browser
+	response['Content-Disposition'] = "attachment; filename=%s" % filename
+	# Return the response value
+	return response
+    
